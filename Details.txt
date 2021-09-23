@@ -1,0 +1,281 @@
+NS0022	AB0159-OSN N877 U5P1 AU4:3&4
+NS0040	OSN 877-5EGS4-1 @AB0159
+AB0159	
+AB0137	
+AB0149	
+AB0349	
+KG0304	
+AB0405	
+KG0087	
+AB0096	
+KG0495	
+AB0330	
+-----------------------------------------------------
+ED0558  	KG0043-OSN N945 U7P2 AU4:15
+ED0447	
+-------------------------------------------------
+ADY01>>EK0023>>EK0350>>ON0082>>ON0434
+Private IP network
+Class A: 10.0.0.0 - 10.255.255.255
+Class B: 172.16.0.0 - 172.31.255.255
+Class C: 192.168.0.0 - 192.168.255.255
+------------------------------------------
+OG0782>>OG0171
+--------------------------------------
+Layer 1 (p2p)
+Layer 2 WAN interface
+------------------------------
+LG0469>>OG0037
+KW0075 10.232.71.141>>OSY01BB 10.232.71.240
+OG0171>>OG0782 TN
+OY0013>>OY0048 TN
+EK0336>>EK0415 SASM
+ED0073>>ED0067
+KW0048 10.232.71.245
+------------------------------------------------
+KW0031>>KW0300 Ceragon 10.227.195.72
+KW0031>>KW0012 Ceragon 10.227.195.71
+Alagbade OS0510 >> Illa BB on Ceragon
+10.237.68.23 >> 10.237.68.24
+OS0024>>Illa BB on WTM
+192.168.224.84
+-----------------------------------------------------
+KW0031BB>>KW0031_CERAGON>>KW0012_CERAGON>>KW0012_TN>>KW0012_ROUTER
+------------------------------------------------------------------
+NCE 10.227.71.241:31943
+Amawbia@2020
+----------------------------
+Craftperson/craftcraft - Nokia default
+------------------------
+OY0019>>KW0012 fibre(OY0019>>OY0830 MW Protection)
+-------------------------------------------------------------------
+ ADOBB 10.232.67.209 & 10.232.67.210
+..........................................
+FileZilla
+172.16.153.196
+-------------------
+ctr
+root
+admin123
+----------------
+SOEM_10.199.1.201_PM
+-------------------------------
+Fusion Backdoor
+84110363
+Ajalli@2020
+Regular Fusion
+84110363
+Umuagu@2020
+----------------------
+hualiab
+asdf@123
+----------------
+SOEM
+mayowa
+Huawei@123
+-----------------
+W3
+Ufuma@123
+-------------------
+eg:
+Circuit Details:
+U7/VC4:42
+On DXX: (-1)
+U7/VC4:41
+On Node Editor:
+Select U7
+then
+VC4:42 on the other page.
+---------------------------------
+Glo Fibre
+N10013-N14119
+------------
+OSS 
+172.24.248.84
+Ufuma@123
+..............................
+Nokia
+10.236.192.1 or 17
+..............................
+Netmaster:
+Kene
+Egusi@123
+10.199.51.5
+------------------
+Citrix
+$ecurity@2020
+-------------------
+Fusion Access
+https://172.16.160.71
+----------------------
+Tellabs
+Umuduruaro@2013
+-----------------------
+Aviat PV: 172.24.21.212:8444
+Samsung@123
+-------------------
+SSF Alarm Server Signal Failure
+-------------------
+On Nokia router;
+show router interface
+show lag 7 detail 
+show port 1/2/8 detail
+show service sap-using (services on particular port)
+show port description
+show service service-using
+show router neighbour
+show router 40201 arp (Address Resolution Protection)
+----------------------------------
+lga
+rbs - password
+cabx or invxr - temp on node b
+--------------------------------------
+Using CLI
+sh rl co (radio link config)
+sh rl status (slot status)
+sh rl status 2 (slot) all
+sh alarms
+sh vlan brief
+enter config mode
+rl 2 rautransmitter near-end on
+ctrl z
+write
+--------------------------------------
+Eri#css$oN@2
+-------------------
+Citrix
+Agulu@2013
+---------------------------
+Windows
+Amawbia@2013
+------------------
+OSN
+HWX84110363
+Ufuma@2013
+---------------------  
+New Citrix
+https://citrix.ng.huawei.com/Citrix 
+July4Oct31##
+------------------
+84057388
+-------------
+sh service sap-using
+sh service sap-using | match 1/1/18 (port )
+sh service id 2028 (vlan) base
+copy out IP for vlan and telnet into
+sh router 40201 arp
+copy "OAM-2028-OG-C12" and attach above
+copy out the details on spread sheet b
+show card 1 detail
+show service service-using epipe
+/configure service epipe vlan shutdown
+/configure service epipe vlan no shutdown
+show router route-table "IP"
+/monitor lag 2 interval 3 rate - utilization
+sh card detail | match Temp
+oam lsp-trace prefix 10.236.0.13/32
+show router ldp session
+show system alarm
+ping ip size 9000
+monitor port rate interval 3
+configure router interface 1/1/1 shutdown
+no  shutdown
+show router isis 1 adjacency detail
+show router bgp summary
+show router fibre 1 10.236.0.1/32
+clear port 1/3/13 statistics 
+show service id 040201 base (layer 3 config)
+ping "IP" rapid count 1000 - for PL
+monitor[port/lag] rate interval 5 - utilization
+sh router ldp status ... to check for LDP
+interface to interface ping;
+ping ip count 500 size 1500
+IP ODD -1
+IP EVEN +1
+---------------------------
+On CLI,
+sh interface ethernet-
+sh interface ethernet-eps
+sh interface ethernet-pm 1/7/101 wan 24 band
+sh card state
+ping router 40001 IP
+----------
+amos RNC
+lt all
+lk iub(site)
+get ES1-23-2-ima47
+lst Equipment=1,Subrack=ES-1.....(?|?|?|?
+lst (site) - to confirm IP or TDM
+get (40590-Iub number)
+----------------------------------------------
+en
+ericsson
+conf t
+router ospf
+network 10.232.32.148/30 area 3.0.0.17
+control z
+write
+conf t
+ip address 10.232.32.150 255.255.255.252
+will loos connection
+then telnet  into site with new ip
+en
+ericsson
+write
+------------------------
+KW0088>>KW0303
+KW0311, KW0312, KW0313
+---------------
+strt | grep 000000
+-------------------
+for packet loss on OSS;
+pmr -m 24 -r 38
+rbs password
+--------------------
+sh lic un all
+lic un en mai
+sh lic st
+-------------------
+QOS Values:
+0-0
+10-1
+18-2
+26-3
+34-4
+46-5
+48-6
+--------------------
+MTN FIBRE SAKI
+10.232.18.118
+----------------------
+ilupeju shop>>LG0094
+expo>>LG0002
+--------------------------
+ON0040>>Mall
+ON0041>>Shop
+------------------------
+On CLI, vlan config;
+conf t
+vlan ???
+add-egressports ?,?
+ctrl z
+write
+sh vlan ???
+-----------------------
+KW0031 BB>>KW0300>>KW0301>>KW0037>>...
+-----------------------------------------------
+ERCOW7>>EK0027
+-------------------------
+LG0469>>OG0037
+------------------------
+EK0014 Ceragon 10.200.224.140
+ADO EK Ceragon 10.200.224.141
+------------------------------------
+AirtelBO@ng.12#D
+---------------------------------
+W3 Account
+Samsung@123
+------------------------------------
+Aviat Capacity check
+Provisioning>>GE GESW-1 L2SW>>Configuration>>QOS>>Port Shaping
+--------------------------------------------------------------
